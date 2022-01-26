@@ -113,8 +113,8 @@ http.get('http://localhost:8080');
 ```
 
 Each instance of `AsyncLocalStorage` maintains an independent storage context.
-Multiple instances can safely exist simultaneously without risk of interfering
-with each other data.
+Multiple instances can safely exist simultaneously without the risk of 
+interfering with each other's data.
 
 ### `new AsyncLocalStorage()`
 
